@@ -22,14 +22,17 @@
 }
 
 .image_container {
-  flex: 0.5;
+  flex: 0.7;
   background-image: url("./images/profile.jpeg");
   background-position: center;
-  clip-path: circle();
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
-.info_container {
-  flex: 0.5;
+.main_container {
+  flex: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar_heading {
@@ -51,4 +54,8 @@
   padding: 23px;
   color: white;
   cursor: pointer;
+}
+
+.qualification_container {
+  display: none;
 }
