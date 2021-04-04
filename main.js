@@ -127,3 +127,40 @@ var marksLength = arr.length;
 // }, undefined);
 
 // console.log(ans);
+
+// var idx = arr.findIndex(function (value) {
+//     return value == 99;
+// });
+
+// console.log(idx);
+
+// var idx = arr.reduce(function (acc, val, idx) {
+
+//     if (acc != -1) return acc;
+//     if (val == 99) return idx;
+//     return acc;
+// }, -1);
+
+// console.log(idx);
+
+
+// --------- map ----------
+// var newArr = arr.reduce(function (acc, val) {
+//     var newValue = val + 5;
+//     acc.push(newValue);
+//     return acc;
+// }, []);
+
+// console.log(newArr);
+
+// --------- filter ----------
+
+// var filterArray = arr.reduce(function (acc, val) {
+//     if (val >= 60) {
+//         acc.push(val);
+//     }
+
+//     return acc;
+// }, []);
+
+// console.log(filterArray);
